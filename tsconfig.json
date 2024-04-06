@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/UI/ButtonPrimary.jsx",
+    "src/components/Footer/Head.jsx",
+    "src/containers/Footer.jsx",
+    "src/components/Home/Products.jsx"
+, "src/components/Home/Hero.jsx", "src/components/Home/Marquee.tsx", "src/app/cart/page.jsx", "src/app/detail/[productId]/Detail.jsx"  ],
+  "exclude": ["node_modules"]
+}
