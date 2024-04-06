@@ -38,7 +38,7 @@ function Hero() {
             key={key}
             className="bg-[#E5E4ED] hero mt-8 rounded-md slider-container"
           >
-            <div className="w-2/5  pt-10  pl-10">
+            <div className="w-2/5 p-10">
               <h1 className="text-5xl lg:text-4xl md:text-3xl sm:text-2xl base:text-xl">
                 Заголовок баннерав пару строк
               </h1>
